@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -126,26 +126,105 @@
 
     <main>
         <div class="container">
-            <div class="flex flex-col section1 my-3 justify-center items-start  tablet:items-end">
-                <img src="./img/slide1.jpg" class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover object-right-bottom ">
 
-                <div class=" flex flex-col absolute w-96 ml-28 tablet:hidden laptop:ml-8">
-                    <h2 class=" font-medium text-2xl">БОЛЬШОЙ ВЫБОР ИГРУШЕК ДЛЯ КОШЕК</h2>
-                    <p class=" text-lg text-gray-600 my-2">Лучшее качество по приятным ценам</p>
-                    <div class=" mt-7"><a
-                            class="button1 border-[1px] border-gray-700 text-gray-700 rounded-full text-lg font-normal uppercase p-3 px-5">
-                            В каталог</a></div>
-                </div>
 
-                <div class=" flex flex-col absolute tablet:static justify-center bg-first hidden tablet:block  w-full pb-7 phone:pl-5 phone:pt-2">
-                    <h2 class=" font-medium text-2xl text-white text-center tablet:text-xl phone:text-lg phone:text-left">БОЛЬШОЙ ВЫБОР ИГРУШЕК ДЛЯ КОШЕК</h2>
-                    <p class=" text-lg text-white my-2 text-center tablet:text-base phone:text-lg phone:text-left">Лучшее качество по приятным ценам</p>
-                    <div class=" mt-7 text-center phone:text-left"><a
-                            class="button1 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
-                            В каталог</a></div>
+            <!-- start carousel -->
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="flex flex-col section1 my-3 justify-center items-start  tablet:items-end">
+                            <img src="./img/slide1.jpg"
+                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover object-right-bottom ">
+
+                            <div class=" flex flex-col absolute w-96 ml-28 tablet:hidden laptop:ml-8">
+                                <h2 class=" font-medium text-2xl">БОЛЬШОЙ ВЫБОР ИГРУШЕК ДЛЯ КОШЕК</h2>
+                                <p class=" text-lg text-gray-600 my-2">Лучшее качество по приятным ценам</p>
+                                <div class=" mt-7"><a
+                                        class="button1 border-[1px] border-gray-700 text-gray-700 rounded-full text-lg font-normal uppercase p-3 px-5">
+                                        В каталог</a></div>
+                            </div>
+
+                            <div
+                                class=" flex flex-col absolute tablet:static justify-center bg-first hidden tablet:block  w-full pb-7 phone:pl-5 phone:pt-2">
+                                <h2
+                                    class=" font-medium text-2xl text-white text-center tablet:text-xl phone:text-lg phone:text-left">
+                                    БОЛЬШОЙ ВЫБОР ИГРУШЕК ДЛЯ КОШЕК</h2>
+                                <p
+                                    class=" text-lg text-white my-2 text-center tablet:text-base phone:text-lg phone:text-left">
+                                    Лучшее качество по приятным ценам</p>
+                                <div class=" mt-7 text-center phone:text-left"><a
+                                        class="button1 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
+                                        В каталог</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flex flex-col section1 my-3 justify-center items-start  tablet:items-end">
+                            <img src="./img/slide2.jpg"
+                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover object-right-bottom ">
+
+                            <div class=" flex flex-col absolute w-96 ml-28 tablet:hidden laptop:ml-8">
+                                <h2 class=" font-medium text-2xl">Новинки акссесуаров для собак</h2>
+                                <p class=" text-lg text-gray-600 my-2">Лучшее качество по приятным ценам</p>
+                                <div class=" mt-7"><a
+                                        class="button1 border-[1px] border-gray-700 text-gray-700 rounded-full text-lg font-normal uppercase p-3 px-5">
+                                        В каталог</a></div>
+                            </div>
+
+                            <div
+                                class=" flex flex-col absolute tablet:static justify-center bg-first hidden tablet:block  w-full pb-7 phone:pl-5 phone:pt-2">
+                                <h2
+                                    class=" font-medium text-2xl text-white text-center tablet:text-xl phone:text-lg phone:text-left">
+                                    Новинки акссесуаров для собак</h2>
+                                <p
+                                    class=" text-lg text-white my-2 text-center tablet:text-base phone:text-lg phone:text-left">
+                                    Лучшее качество по приятным ценам</p>
+                                <div class=" mt-7 text-center phone:text-left"><a
+                                        class="button1 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
+                                        В каталог</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flex flex-col section1 my-3 justify-center items-start  tablet:items-end">
+                            <img src="./img/slide3.jpg"
+                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover object-right-bottom ">
+
+                            <div class=" flex flex-col absolute w-96 ml-28 tablet:hidden laptop:ml-8">
+                                <h2 class=" font-medium text-2xl">Множество разных кормов для грызунов</h2>
+                                <p class=" text-lg text-gray-600 my-2">Лучшее качество по приятным ценам</p>
+                                <div class=" mt-7"><a
+                                        class="button1 border-[1px] border-gray-700 text-gray-700 rounded-full text-lg font-normal uppercase p-3 px-5">
+                                        В каталог</a></div>
+                            </div>
+
+                            <div
+                                class=" flex flex-col absolute tablet:static justify-center bg-first hidden tablet:block  w-full pb-7 phone:pl-5 phone:pt-2">
+                                <h2
+                                    class=" font-medium text-2xl text-white text-center tablet:text-xl phone:text-lg phone:text-left">
+                                    Множество разных кормов для грызунов</h2>
+                                <p
+                                    class=" text-lg text-white my-2 text-center tablet:text-base phone:text-lg phone:text-left">
+                                    Лучшее качество по приятным ценам</p>
+                                <div class=" mt-7 text-center phone:text-left"><a
+                                        class="button1 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
+                                        В каталог</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
+            <!-- end  carousel -->
 
         </div>
 
@@ -153,26 +232,107 @@
             <div class="section2 flex flex-col tablet:gap-4">
                 <div class="cards1 flex tablet:flex-col">
                     <div class="col1 w-1/2 tablet:w-auto"><a href=""><img src="img/card-full-1.jpg"></a></div>
-                    <div class="col2 w-1/2 flex tablet:w-auto"> 
-                        <a href="" class=" "><img src="img/card-sm-1.jpg" ></a> 
+                    <div class="col2 w-1/2 flex tablet:w-auto">
+                        <a href="" class=" "><img src="img/card-sm-1.jpg"></a>
                         <a href=""><img src="img/card-sm-2.jpg"></a>
                     </div>
                 </div>
 
                 <div class="cards2 flex tablet:flex-col-reverse">
-                    <div class="col2 w-1/2 flex tablet:w-auto"> 
-                        <a href=""><img src="img/card-sm-3.jpg" ></a> 
-                        <a href=""><img src="img/card-sm-4.jpg" ></a>
+                    <div class="col2 w-1/2 flex tablet:w-auto">
+                        <a href=""><img src="img/card-sm-3.jpg"></a>
+                        <a href=""><img src="img/card-sm-4.jpg"></a>
                     </div>
                     <div class="col1 w-1/2 tablet:w-auto"><a href=""><img src="img/card-full-2.jpg"></a></div>
                 </div>
             </div>
         </div>
 
+        <div class="container">
+            <div class="products1">
+
+            </div>
+        </div>
+
+        <div class="container my-16 ">
+            <div class="about_us flex tablet:flex-col gap-3">
+                <div class="col1 w-1/2 tablet:w-auto px-2 gap-2">
+                    <h2 class=" font-medium text-2xl laptop:text-xl phone:text-lg">Все для ваших домашних любимцев и
+                        даже больше в интернет-магазине
+                        «4PETS»</h2>
+                    <div class=" overflow-y-scroll h-80 desktop:h-60 laptop:h-40 tablet:h-80">
+                        <p class=" text-base tablet:text-sm ">«4PETS» - это интернет-магазин по продаже товаров для
+                            домашних животных. Мы были основаны в 2022 году с целью предоставления высококачественных
+                            продуктов для домашних животных для любителей животных. Наша миссия заключается в том, чтобы
+                            предоставлять качественные продукты по доступным ценам, а также предоставлять лучшие услуги
+                            и поддержку нашим клиентам.</p><br>
+                        <p class=" text-base tablet:text-sm ">Наш магазин предлагает широкий ассортимент товаров,
+                            включая корма, игрушки, аксессуары, приспособления и многое другое
+                            для всех видов домашних животных, включая собак, кошек, грызунов, птиц и рыб. Мы стремимся
+                            предоставлять нашим клиентам только самые высококачественные продукты, которые проходят
+                            тщательную проверку качества. Мы также регулярно предлагаем скидки и акционные предложения в
+                            нашем магазине.</p><br>
+                        <p class=" text-base tablet:text-sm ">Наша главная цель - это удовлетворить потребности и
+                            желания наших клиентов, предоставляя им продукты наивысшего качества и отличные услуги,
+                            чтобы поддерживать здоровье и долголетие их домашних животных. Мы стремимся быть лидерами в
+                            области продуктов для домашних животных и постоянно работаем над улучшением нашей продукции
+                            и сервиса.</p>
+                    </div>
+
+                </div>
+                <div class="col2 w-1/2 tablet:w-auto">
+                    <img src="img/about_us.jpg">
+                </div>
+            </div>
+        </div>
+
     </main>
 
-    <footer>
+    <footer class="bg-[#f1f1f1]">
+        <div class="container flex tablet:flex-col py-12 gap-6">
+            <div class=" flex w-1/2 tablet:w-auto">
+                <div class=" w-1/2 flex flex-col text-lg gap-2 p-1">
+                    <h3 class=" font-medium mb-2">Информация</h3>
+                    <a href="">Главное</a>
+                    <a href="">Новости</a>
+                    <a href="">Контакты</a>
+                    <a href="">О нас</a>
+                </div>
+                <div class=" w-1/2 flex flex-col text-lg gap-2 p-1">
+                    <h3 class=" font-medium mb-2">Заказ</h3>
+                    <a href="">Доставка</a>
+                    <a href="">Оплата</a>
+                    <a href="">Система скидок</a>
+                </div>
+            </div>
 
+            <div class=" flex w-1/2 tablet:w-auto">
+                <div class=" w-1/2 flex flex-col text-base gap-2 p-1">
+                    <h3 class=" font-medium mb-2">Другое</h3>
+                    <a href="">Вход</a>
+                    <a href="">Регистация</a>
+                    <a href="">Частозадаваемые вопросы</a>
+                </div>
+                <div class=" w-1/2 flex flex-col text-lg gap-2 p-1">
+                    <h3 class=" font-medium mb-2">Контакты</h3>
+                    <a href="">+7 (987) 666-78-82</a>
+                    <a href="">г. Чебоксары, ул.Декабристов 17</a>
+                    <a href="">Пн - Пт. с 8:30 до 21.00</a>
+                    <a href="">Сб - Вс. с 10:00 до 20.00</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container flex flex-col items-center py-5 gap-1">
+            <div class="logos">
+                <i class="fa-brands fa-instagram text-black text-2xl "></i>
+                <i class="fa-brands fa-facebook text-black text-2xl mx-3"></i>
+                <i class="fa-brands fa-twitter text-black text-2xl "></i>
+            </div>
+
+            <p>Ⓒ 2022 Интернет-магазин 4Pets</p>
+
+        </div>
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
