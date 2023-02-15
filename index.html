@@ -22,6 +22,8 @@
                     <li><a href="" class="px-3">Новости</a></li>
                     <li><a href="" class="px-3">О нас</a></li>
                     <li><a href="" class="px-3">Контакты</a></li>
+                    <li><a href="" class="px-3">Каталог</a></li>
+                    <li><a href="" class="px-3">FAQs</a></li>
                 </ul>
 
                 <ul class="flex gap-3">
@@ -55,7 +57,7 @@
                         <li><a href="">ПТИЦАМ</a></li>
                         <li><a href="">РЫБАМ</a></li>
                         <li><a href="">ГРЫЗУНАМ</a></li>
-                        <li><a href="">АКСЕССУАРЫ</a></li>
+
                         <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     </ul>
 
@@ -65,8 +67,8 @@
 
     </header>
 
-    <header class="header2 border-b-[1px] border-b-first hidden tablet:block">
-        <div class=" container">
+    <header class="header2  hidden tablet:block">
+        <div class=" container border-b-[1px] border-b-first">
             <div class=" flex justify-between items-center my-3">
                 <div class="">
                     <button class="burger "><i class="fa-solid fa-bars text-black text-2xl"></i></button>
@@ -82,7 +84,7 @@
         </div>
 
         <div id="menu" class="container hidden flex flex-col">
-            <ul class=" absolute left-1 right-1 top-28  flex-col items-center ">
+            <ul class=" flex-col items-center ">
                 <div class=" bg-first">
                     <li class="border-b-[1px] px-3 pt-4 pb-3"><a href="#" class="block font-normal text-white">КОТАМ</a>
                     </li>
@@ -97,9 +99,7 @@
                     <li class="border-b-[1px] px-3 pt-4 pb-3"><a href="#"
                             class="block font-normal text-white">ГРЫЗУНАМ</a>
                     </li>
-                    <li class="border-b-[1px] px-3 pt-4 pb-3"><a href="#"
-                            class="block font-normal text-white">АКСЕССУАРЫ</a>
-                    </li>
+
                 </div>
                 <div class="bg-third">
                     <li class="border-b-[1px] px-3 pt-4 pb-3"><a href="#" class="block font-normal text-black">Доставка
@@ -132,9 +132,11 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <!-- First slide -->
                         <div class="flex flex-col section1 my-3 justify-center items-start  tablet:items-end">
                             <img src="./img/slide1.jpg"
-                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover object-right-bottom ">
+                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover"
+                                style="object-position: 90% 100%;">
 
                             <div class=" flex flex-col absolute w-96 ml-28 tablet:hidden laptop:ml-8">
                                 <h2 class=" font-medium text-2xl">БОЛЬШОЙ ВЫБОР ИГРУШЕК ДЛЯ КОШЕК</h2>
@@ -145,7 +147,7 @@
                             </div>
 
                             <div
-                                class=" flex flex-col absolute tablet:static justify-center bg-first hidden tablet:block  w-full pb-7 phone:pl-5 phone:pt-2">
+                                class=" flex flex-col absolute tablet:static justify-center bg-gray-600 hidden tablet:block w-full pb-7 phone:pl-1 phone:pt-2">
                                 <h2
                                     class=" font-medium text-2xl text-white text-center tablet:text-xl phone:text-lg phone:text-left">
                                     БОЛЬШОЙ ВЫБОР ИГРУШЕК ДЛЯ КОШЕК</h2>
@@ -153,18 +155,20 @@
                                     class=" text-lg text-white my-2 text-center tablet:text-base phone:text-lg phone:text-left">
                                     Лучшее качество по приятным ценам</p>
                                 <div class=" mt-7 text-center phone:text-left"><a
-                                        class="button1 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
+                                        class="button2 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
                                         В каталог</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <!-- second slide -->
                         <div class="flex flex-col section1 my-3 justify-center items-start  tablet:items-end">
                             <img src="./img/slide2.jpg"
-                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover object-right-bottom ">
+                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover"
+                                style="object-position: 90% 100%;">
 
                             <div class=" flex flex-col absolute w-96 ml-28 tablet:hidden laptop:ml-8">
-                                <h2 class=" font-medium text-2xl">Новинки акссесуаров для собак</h2>
+                                <h2 class=" font-medium text-2xl">БОЛЬШОЙ ВЫБОР АКСЕССУАРОВ ДЛЯ СОБАК</h2>
                                 <p class=" text-lg text-gray-600 my-2">Лучшее качество по приятным ценам</p>
                                 <div class=" mt-7"><a
                                         class="button1 border-[1px] border-gray-700 text-gray-700 rounded-full text-lg font-normal uppercase p-3 px-5">
@@ -172,26 +176,28 @@
                             </div>
 
                             <div
-                                class=" flex flex-col absolute tablet:static justify-center bg-first hidden tablet:block  w-full pb-7 phone:pl-5 phone:pt-2">
+                                class=" flex flex-col absolute tablet:static justify-center bg-gray-600 hidden tablet:block w-full pb-7 phone:pl-1 phone:pt-2">
                                 <h2
                                     class=" font-medium text-2xl text-white text-center tablet:text-xl phone:text-lg phone:text-left">
-                                    Новинки акссесуаров для собак</h2>
+                                    БОЛЬШОЙ ВЫБОР АКСЕССУАРОВ</h2>
                                 <p
                                     class=" text-lg text-white my-2 text-center tablet:text-base phone:text-lg phone:text-left">
                                     Лучшее качество по приятным ценам</p>
                                 <div class=" mt-7 text-center phone:text-left"><a
-                                        class="button1 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
+                                        class="button2 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
                                         В каталог</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <!-- Third Slide -->
                         <div class="flex flex-col section1 my-3 justify-center items-start  tablet:items-end">
                             <img src="./img/slide3.jpg"
-                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover object-right-bottom ">
+                                class="w-full h-full tablet:h-[600px] phone:h-[440px] object-cover"
+                                style="object-position: 90% 100%;">
 
                             <div class=" flex flex-col absolute w-96 ml-28 tablet:hidden laptop:ml-8">
-                                <h2 class=" font-medium text-2xl">Множество разных кормов для грызунов</h2>
+                                <h2 class=" font-medium text-2xl">МНОГО ИГРУШЕК ДЛЯ КОТЯТ</h2>
                                 <p class=" text-lg text-gray-600 my-2">Лучшее качество по приятным ценам</p>
                                 <div class=" mt-7"><a
                                         class="button1 border-[1px] border-gray-700 text-gray-700 rounded-full text-lg font-normal uppercase p-3 px-5">
@@ -199,15 +205,15 @@
                             </div>
 
                             <div
-                                class=" flex flex-col absolute tablet:static justify-center bg-first hidden tablet:block  w-full pb-7 phone:pl-5 phone:pt-2">
+                                class=" flex flex-col absolute tablet:static justify-center bg-gray-600 hidden tablet:block w-full pb-7 phone:pl-1 phone:pt-2">
                                 <h2
                                     class=" font-medium text-2xl text-white text-center tablet:text-xl phone:text-lg phone:text-left">
-                                    Множество разных кормов для грызунов</h2>
+                                    МНОГО ИГРУШЕК ДЛЯ КОТЯТ</h2>
                                 <p
                                     class=" text-lg text-white my-2 text-center tablet:text-base phone:text-lg phone:text-left">
                                     Лучшее качество по приятным ценам</p>
                                 <div class=" mt-7 text-center phone:text-left"><a
-                                        class="button1 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
+                                        class="button2 border-[1px] border-white text-white rounded-full text-lg tablet:text-base phone:text-sm  font-normal uppercase p-3 px-5  ">
                                         В каталог</a></div>
                             </div>
                         </div>

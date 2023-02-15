@@ -35,12 +35,21 @@ font-family: 'Geometria', sans-serif;
   color: #d9a85d;
   position:static;
  }
+ footer a:hover{
+  color: #d9a85d;
+ }
 
  .button1:hover{
     color: white;
-    background: linear-gradient(152deg, rgb(196, 151, 83) 0%, rgba(77,59,33,1) 100%);
+    background: linear-gradient(152deg, rgb(196, 151, 83) 0%, rgb(238, 188, 118) 100%);
     border: none;
  }
+
+ .button2:hover{
+  color: white;
+  background: linear-gradient(152deg, rgb(185, 185, 185) 0%, rgb(85, 85, 85) 100%);
+  border: none;
+}
 
 
 
